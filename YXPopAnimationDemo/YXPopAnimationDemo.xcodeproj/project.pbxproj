@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81BC5F2278EE5626642C2D69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBD1A290A929B4A2DDA9AA2 /* libPods.a */; };
+		DA1E7BE51C4535D000106293 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E7BE41C4535D000106293 /* TitleButton.m */; settings = {ASSET_TAGS = (); }; };
+		DA2F1ED41C43D32700EC410D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1ED31C43D32700EC410D /* main.m */; };
+		DA2F1ED71C43D32700EC410D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1ED61C43D32700EC410D /* AppDelegate.m */; };
+		DA2F1EDF1C43D32700EC410D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2F1EDE1C43D32700EC410D /* Assets.xcassets */; };
+		DA2F1EEF1C43D8B100EC410D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EEE1C43D8B100EC410D /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA2F1EF21C43D8DB00EC410D /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EF11C43D8DB00EC410D /* LeftViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA2F1EF61C43D93800EC410D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EF51C43D93800EC410D /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA2F1EFA1C43D96B00EC410D /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EF91C43D96B00EC410D /* Demo1ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA2F1EFD1C43D97800EC410D /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CBD1A290A929B4A2DDA9AA2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECF568547D646D91FECA81B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DA1E7BE31C4535D000106293 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
+		DA1E7BE41C4535D000106293 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		DA2F1ECF1C43D32700EC410D /* YXPopAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXPopAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2F1ED31C43D32700EC410D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA2F1ED51C43D32700EC410D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA2F1ED61C43D32700EC410D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA2F1EDE1C43D32700EC410D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2F1EE31C43D32700EC410D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2F1EED1C43D8B100EC410D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DA2F1EEE1C43D8B100EC410D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		DA2F1EF01C43D8DB00EC410D /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		DA2F1EF11C43D8DB00EC410D /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		DA2F1EF41C43D93800EC410D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DA2F1EF51C43D93800EC410D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DA2F1EF81C43D96B00EC410D /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		DA2F1EF91C43D96B00EC410D /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		DA2F1EFB1C43D97800EC410D /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		DA2F1EFE1C43DA2C00EC410D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E94FCF53B711CB89AA9C28C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2F1ECC1C43D32700EC410D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BC5F2278EE5626642C2D69 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0157EEE94FEE40138656D9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBD1A290A929B4A2DDA9AA2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9741097CB9D663C5CC6D39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ECF568547D646D91FECA81B /* Pods.debug.xcconfig */,
+				E94FCF53B711CB89AA9C28C3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA1E7BE21C4535C200106293 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E7BE31C4535D000106293 /* TitleButton.h */,
+				DA1E7BE41C4535D000106293 /* TitleButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DA2F1EC61C43D32700EC410D = {
+			isa = PBXGroup;
+			children = (
+				DA2F1ED11C43D32700EC410D /* YXPopAnimationDemo */,
+				DA2F1ED01C43D32700EC410D /* Products */,
+				0A9741097CB9D663C5CC6D39 /* Pods */,
+				0157EEE94FEE40138656D9C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2F1ED01C43D32700EC410D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1ECF1C43D32700EC410D /* YXPopAnimationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2F1ED11C43D32700EC410D /* YXPopAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EEC1C43D88E00EC410D /* SWRevealViewController */,
+				DA2F1EEA1C43D87200EC410D /* CenterPage */,
+				DA2F1EE91C43D85C00EC410D /* LeftPage */,
+				DA2F1ED51C43D32700EC410D /* AppDelegate.h */,
+				DA2F1ED61C43D32700EC410D /* AppDelegate.m */,
+				DA2F1EDE1C43D32700EC410D /* Assets.xcassets */,
+				DA2F1EE31C43D32700EC410D /* Info.plist */,
+				DA2F1ED21C43D32700EC410D /* Supporting Files */,
+			);
+			path = YXPopAnimationDemo;
+			sourceTree = "<group>";
+		};
+		DA2F1ED21C43D32700EC410D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EFE1C43DA2C00EC410D /* PrefixHeader.pch */,
+				DA2F1ED31C43D32700EC410D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2F1EE91C43D85C00EC410D /* LeftPage */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EF01C43D8DB00EC410D /* LeftViewController.h */,
+				DA2F1EF11C43D8DB00EC410D /* LeftViewController.m */,
+			);
+			name = LeftPage;
+			sourceTree = "<group>";
+		};
+		DA2F1EEA1C43D87200EC410D /* CenterPage */ = {
+			isa = PBXGroup;
+			children = (
+				DA1E7BE21C4535C200106293 /* View */,
+				DA2F1EF71C43D95600EC410D /* Demo2 */,
+				DA2F1EF41C43D93800EC410D /* BaseViewController.h */,
+				DA2F1EF51C43D93800EC410D /* BaseViewController.m */,
+				DA2F1EF31C43D90700EC410D /* Demo1 */,
+			);
+			name = CenterPage;
+			sourceTree = "<group>";
+		};
+		DA2F1EEC1C43D88E00EC410D /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EED1C43D8B100EC410D /* SWRevealViewController.h */,
+				DA2F1EEE1C43D8B100EC410D /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		DA2F1EF31C43D90700EC410D /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EF81C43D96B00EC410D /* Demo1ViewController.h */,
+				DA2F1EF91C43D96B00EC410D /* Demo1ViewController.m */,
+			);
+			name = Demo1;
+			sourceTree = "<group>";
+		};
+		DA2F1EF71C43D95600EC410D /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				DA2F1EFB1C43D97800EC410D /* Demo2ViewController.h */,
+				DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */,
+			);
+			name = Demo2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2F1ECE1C43D32700EC410D /* YXPopAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2F1EE61C43D32700EC410D /* Build configuration list for PBXNativeTarget "YXPopAnimationDemo" */;
+			buildPhases = (
+				D781EE07EBA4D07877BFB3A4 /* Check Pods Manifest.lock */,
+				DA2F1ECB1C43D32700EC410D /* Sources */,
+				DA2F1ECC1C43D32700EC410D /* Frameworks */,
+				DA2F1ECD1C43D32700EC410D /* Resources */,
+				65D117D70E33625F1F831AE6 /* Embed Pods Frameworks */,
+				8655858B551CD2A37E2F38D0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXPopAnimationDemo;
+			productName = YXPopAnimationDemo;
+			productReference = DA2F1ECF1C43D32700EC410D /* YXPopAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2F1EC71C43D32700EC410D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yixiang;
+				TargetAttributes = {
+					DA2F1ECE1C43D32700EC410D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2M632FEG3H;
+					};
+				};
+			};
+			buildConfigurationList = DA2F1ECA1C43D32700EC410D /* Build configuration list for PBXProject "YXPopAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2F1EC61C43D32700EC410D;
+			productRefGroup = DA2F1ED01C43D32700EC410D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2F1ECE1C43D32700EC410D /* YXPopAnimationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2F1ECD1C43D32700EC410D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2F1EDF1C43D32700EC410D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65D117D70E33625F1F831AE6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8655858B551CD2A37E2F38D0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D781EE07EBA4D07877BFB3A4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2F1ECB1C43D32700EC410D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2F1EFA1C43D96B00EC410D /* Demo1ViewController.m in Sources */,
+				DA2F1EF61C43D93800EC410D /* BaseViewController.m in Sources */,
+				DA2F1EF21C43D8DB00EC410D /* LeftViewController.m in Sources */,
+				DA2F1ED71C43D32700EC410D /* AppDelegate.m in Sources */,
+				DA2F1ED41C43D32700EC410D /* main.m in Sources */,
+				DA2F1EFD1C43D97800EC410D /* Demo2ViewController.m in Sources */,
+				DA1E7BE51C4535D000106293 /* TitleButton.m in Sources */,
+				DA2F1EEF1C43D8B100EC410D /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA2F1EE41C43D32700EC410D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA2F1EE51C43D32700EC410D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2F1EE71C43D32700EC410D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECF568547D646D91FECA81B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YXPopAnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = YXPopAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alibaba.YXPopAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2F1EE81C43D32700EC410D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E94FCF53B711CB89AA9C28C3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YXPopAnimationDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = YXPopAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alibaba.YXPopAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2F1ECA1C43D32700EC410D /* Build configuration list for PBXProject "YXPopAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2F1EE41C43D32700EC410D /* Debug */,
+				DA2F1EE51C43D32700EC410D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2F1EE61C43D32700EC410D /* Build configuration list for PBXNativeTarget "YXPopAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2F1EE71C43D32700EC410D /* Debug */,
+				DA2F1EE81C43D32700EC410D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2F1EC71C43D32700EC410D /* Project object */;
+}
