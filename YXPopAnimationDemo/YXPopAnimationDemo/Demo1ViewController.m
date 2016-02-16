@@ -32,7 +32,7 @@
 }
 
 -(NSString *)controllerTitle{
-    return @"基础动画";
+    return @"POPBasicAnimation";
 }
 
 -(NSArray *)operateTitleArray{

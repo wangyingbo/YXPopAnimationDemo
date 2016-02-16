@@ -10,6 +10,8 @@
 #import "SWRevealViewController.h"
 #import "Demo1ViewController.h"
 #import "Demo2ViewController.h"
+#import "Demo3ViewController.h"
+#import "Demo4ViewController.h"
 
 @interface LeftViewController()<UITableViewDataSource,UITableViewDelegate>
 
@@ -76,6 +78,12 @@
             break;
         case 1:
             viewController = [[Demo2ViewController alloc] init];
+            break;
+        case 2:
+            viewController = [[Demo3ViewController alloc] init];
+            break;
+        case 3:
+            viewController = [[Demo4ViewController alloc] init];
             break;
         default:
             break;

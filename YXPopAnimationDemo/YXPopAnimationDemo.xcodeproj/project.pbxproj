@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		81BC5F2278EE5626642C2D69 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBD1A290A929B4A2DDA9AA2 /* libPods.a */; };
 		DA1E7BE51C4535D000106293 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1E7BE41C4535D000106293 /* TitleButton.m */; settings = {ASSET_TAGS = (); }; };
+		DA256C701C71B9DF00E132F4 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA256C6F1C71B9DF00E132F4 /* MenuItem.m */; settings = {ASSET_TAGS = (); }; };
+		DA256C731C71BA5700E132F4 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA256C721C71BA5700E132F4 /* MenuButton.m */; settings = {ASSET_TAGS = (); }; };
+		DA256C761C71BD7200E132F4 /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DA256C751C71BD7200E132F4 /* PopMenu.m */; settings = {ASSET_TAGS = (); }; };
+		DA256C7A1C71E7F700E132F4 /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA256C791C71E7F700E132F4 /* PaperButton.m */; settings = {ASSET_TAGS = (); }; };
 		DA2F1ED41C43D32700EC410D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1ED31C43D32700EC410D /* main.m */; };
 		DA2F1ED71C43D32700EC410D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1ED61C43D32700EC410D /* AppDelegate.m */; };
 		DA2F1EDF1C43D32700EC410D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2F1EDE1C43D32700EC410D /* Assets.xcassets */; };
@@ -17,6 +21,8 @@
 		DA2F1EF61C43D93800EC410D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EF51C43D93800EC410D /* BaseViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DA2F1EFA1C43D96B00EC410D /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EF91C43D96B00EC410D /* Demo1ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		DA2F1EFD1C43D97800EC410D /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA684A3B1C70637400EBE38D /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA684A3A1C70637400EBE38D /* Demo3ViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DA684A3F1C706E3000EBE38D /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA684A3E1C706E3000EBE38D /* Demo4ViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,14 @@
 		4ECF568547D646D91FECA81B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DA1E7BE31C4535D000106293 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
 		DA1E7BE41C4535D000106293 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		DA256C6E1C71B9DF00E132F4 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		DA256C6F1C71B9DF00E132F4 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		DA256C711C71BA5700E132F4 /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		DA256C721C71BA5700E132F4 /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		DA256C741C71BD7200E132F4 /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
+		DA256C751C71BD7200E132F4 /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
+		DA256C781C71E7F700E132F4 /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		DA256C791C71E7F700E132F4 /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
 		DA2F1ECF1C43D32700EC410D /* YXPopAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXPopAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2F1ED31C43D32700EC410D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA2F1ED51C43D32700EC410D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +55,10 @@
 		DA2F1EFB1C43D97800EC410D /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
 		DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		DA2F1EFE1C43DA2C00EC410D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DA684A391C70637400EBE38D /* Demo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		DA684A3A1C70637400EBE38D /* Demo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
+		DA684A3D1C706E3000EBE38D /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
+		DA684A3E1C706E3000EBE38D /* Demo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo4ViewController.m; sourceTree = "<group>"; };
 		E94FCF53B711CB89AA9C28C3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +98,28 @@
 				DA1E7BE41C4535D000106293 /* TitleButton.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		DA256C6D1C71B9A900E132F4 /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DA256C6E1C71B9DF00E132F4 /* MenuItem.h */,
+				DA256C6F1C71B9DF00E132F4 /* MenuItem.m */,
+				DA256C711C71BA5700E132F4 /* MenuButton.h */,
+				DA256C721C71BA5700E132F4 /* MenuButton.m */,
+				DA256C741C71BD7200E132F4 /* PopMenu.h */,
+				DA256C751C71BD7200E132F4 /* PopMenu.m */,
+			);
+			name = PopMenu;
+			sourceTree = "<group>";
+		};
+		DA256C771C71E7B800E132F4 /* PaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				DA256C781C71E7F700E132F4 /* PaperButton.h */,
+				DA256C791C71E7F700E132F4 /* PaperButton.m */,
+			);
+			name = PaperButton;
 			sourceTree = "<group>";
 		};
 		DA2F1EC61C43D32700EC410D = {
@@ -136,6 +176,8 @@
 		DA2F1EEA1C43D87200EC410D /* CenterPage */ = {
 			isa = PBXGroup;
 			children = (
+				DA684A3C1C706E1800EBE38D /* Demo4 */,
+				DA684A381C70634B00EBE38D /* Demo3 */,
 				DA1E7BE21C4535C200106293 /* View */,
 				DA2F1EF71C43D95600EC410D /* Demo2 */,
 				DA2F1EF41C43D93800EC410D /* BaseViewController.h */,
@@ -166,10 +208,30 @@
 		DA2F1EF71C43D95600EC410D /* Demo2 */ = {
 			isa = PBXGroup;
 			children = (
+				DA256C771C71E7B800E132F4 /* PaperButton */,
+				DA256C6D1C71B9A900E132F4 /* PopMenu */,
 				DA2F1EFB1C43D97800EC410D /* Demo2ViewController.h */,
 				DA2F1EFC1C43D97800EC410D /* Demo2ViewController.m */,
 			);
 			name = Demo2;
+			sourceTree = "<group>";
+		};
+		DA684A381C70634B00EBE38D /* Demo3 */ = {
+			isa = PBXGroup;
+			children = (
+				DA684A391C70637400EBE38D /* Demo3ViewController.h */,
+				DA684A3A1C70637400EBE38D /* Demo3ViewController.m */,
+			);
+			name = Demo3;
+			sourceTree = "<group>";
+		};
+		DA684A3C1C706E1800EBE38D /* Demo4 */ = {
+			isa = PBXGroup;
+			children = (
+				DA684A3D1C706E3000EBE38D /* Demo4ViewController.h */,
+				DA684A3E1C706E3000EBE38D /* Demo4ViewController.m */,
+			);
+			name = Demo4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,11 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA256C7A1C71E7F700E132F4 /* PaperButton.m in Sources */,
 				DA2F1EFA1C43D96B00EC410D /* Demo1ViewController.m in Sources */,
+				DA256C701C71B9DF00E132F4 /* MenuItem.m in Sources */,
 				DA2F1EF61C43D93800EC410D /* BaseViewController.m in Sources */,
+				DA684A3F1C706E3000EBE38D /* Demo4ViewController.m in Sources */,
 				DA2F1EF21C43D8DB00EC410D /* LeftViewController.m in Sources */,
+				DA684A3B1C70637400EBE38D /* Demo3ViewController.m in Sources */,
 				DA2F1ED71C43D32700EC410D /* AppDelegate.m in Sources */,
 				DA2F1ED41C43D32700EC410D /* main.m in Sources */,
+				DA256C731C71BA5700E132F4 /* MenuButton.m in Sources */,
+				DA256C761C71BD7200E132F4 /* PopMenu.m in Sources */,
 				DA2F1EFD1C43D97800EC410D /* Demo2ViewController.m in Sources */,
 				DA1E7BE51C4535D000106293 /* TitleButton.m in Sources */,
 				DA2F1EEF1C43D8B100EC410D /* SWRevealViewController.m in Sources */,
